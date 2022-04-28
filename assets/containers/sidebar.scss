@@ -1,0 +1,318 @@
+.sidebar {
+    width: 300px;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-top: 48px;
+
+    .sidebar-events-wrapper {
+        .sidebar-title {
+            color: #E93530;
+            font-weight: 600;
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+        .sidebar-events-list {
+            .sidebar-events-item {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 20px;
+
+                .sidebar-events-block {
+                    position: relative;
+                    width: 54px;
+                    height: 74px;
+                    border: 1px solid rgb(128, 124, 124);
+                    margin-right: 6px;
+                    
+                    .sidebar-events-date {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-size: 24px;
+                        font-weight: 300;
+    
+                        .sidebar-event-day {
+                            font-weight: 300;
+                            font-size: 26px;
+                        }
+    
+                        .sidebar-event-month {
+                            font-weight: 400;
+                            font-size: 16px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+                .sidebar-events-data {
+                    width: 80%;
+
+                    .sidebar-event-title {
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin:0 0 10px;
+                    }
+                    .sidebar-enent-description {
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: 400;
+                        color: #465568;
+                    }
+                }
+            }
+        }
+    }
+    .sidebar-people-wrapper {
+        margin-bottom: 36px;
+
+        .sidebar-title {
+            color: #E93530;
+            font-weight: 600;
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+
+        .sidebar-people-list {
+            display: flex;
+            flex-direction: column;
+
+            .sidebar-people-item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 16px;
+
+                .sidebar-image-wrapper {
+                    width: 48px;
+                    height: auto;
+                    margin-right: 12px;
+
+                    .sidebar-person-image {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .sidebar-person-data {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: space-around;
+
+                    .sidebar-person-name {
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                    }
+                    .sidebar-person-profession {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #465568;
+                    }
+                }
+            }
+        }
+    }
+
+    .sidebar-contacts-wrapper {
+        margin-bottom: 36px;
+        
+        .sidebar-contacts-title {
+            color: #111111;
+            font-size: 22px;
+            font-weight: 400;
+            margin-bottom: 12px;
+        }
+        .sidebar-contacts-list {
+            .sidebar-contacts-item {
+                display: flex;
+                align-items: center;
+                padding: 8px 18px;
+                background-color: #F0F3F6;
+                margin-bottom: 12px;
+
+                .sidebar-contacts-icon-wrapper {
+                    width: 32px;
+                    height: 32px;
+                    margin-right: 12px;
+
+                    .sidebar-contacts-icon {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .sidebar-contacts-media {
+                    font-weight: 400;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1000px) and (min-width: 748px) {
+    .sidebar {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 748px) {
+    .sidebar {
+        width: 100%;
+        margin: 0 0 24px;
+    
+        .sidebar-events-wrapper {
+            .sidebar-title {
+                color: #E93530;
+                font-weight: 600;
+                font-size: 24px;
+                margin-bottom: 12px;
+            }
+            .sidebar-events-list {
+                .sidebar-events-item {
+                    display: flex;
+                    align-items: flex-start;
+                    margin-bottom: 20px;
+    
+                    .sidebar-events-block {
+                        position: relative;
+                        width: 54px;
+                        height: 74px;
+                        border: 1px solid rgb(128, 124, 124);
+                        margin-right: 6px;
+                        
+                        .sidebar-events-date {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            font-size: 24px;
+                            font-weight: 300;
+        
+                            .sidebar-event-day {
+                                font-weight: 300;
+                                font-size: 26px;
+                            }
+        
+                            .sidebar-event-month {
+                                font-weight: 400;
+                                font-size: 16px;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                    .sidebar-events-data {
+                        width: 80%;
+    
+                        .sidebar-event-title {
+                            font-size: 16px;
+                            font-weight: 600;
+                            margin:0 0 10px;
+                        }
+                        .sidebar-enent-description {
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-weight: 400;
+                            color: #465568;
+                        }
+                    }
+                }
+            }
+        }
+        .sidebar-people-wrapper {
+            margin-bottom: 36px;
+    
+            .sidebar-title {
+                color: #E93530;
+                font-weight: 600;
+                font-size: 24px;
+                margin-bottom: 12px;
+            }
+    
+            .sidebar-people-list {
+                display: flex;
+                flex-direction: column;
+    
+                .sidebar-people-item {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 16px;
+    
+                    .sidebar-image-wrapper {
+                        width: 48px;
+                        height: auto;
+                        margin-right: 12px;
+    
+                        .sidebar-person-image {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .sidebar-person-data {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: space-around;
+    
+                        .sidebar-person-name {
+                            font-size: 16px;
+                            font-weight: 600;
+                            margin-bottom: 10px;
+                        }
+                        .sidebar-person-profession {
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #465568;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .sidebar-contacts-wrapper {
+            margin-bottom: 36px;
+            
+            .sidebar-contacts-title {
+                color: #111111;
+                font-size: 22px;
+                font-weight: 400;
+                margin-bottom: 12px;
+            }
+            .sidebar-contacts-list {
+                .sidebar-contacts-item {
+                    display: flex;
+                    align-items: center;
+                    padding: 8px 18px;
+                    background-color: #F0F3F6;
+                    margin-bottom: 12px;
+    
+                    .sidebar-contacts-icon-wrapper {
+                        width: 32px;
+                        height: 32px;
+                        margin-right: 12px;
+    
+                        .sidebar-contacts-icon {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .sidebar-contacts-media {
+                        font-weight: 400;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+        }
+    }
+}

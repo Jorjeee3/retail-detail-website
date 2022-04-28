@@ -1,0 +1,245 @@
+@import "../containers/footer";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  max-height: 1000px;
+}
+
+.body {
+  height: 100vh;
+}
+
+.container {
+  max-width: 1290px;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.display-none {
+  display: none;
+}
+
+.flex-container {
+  max-width: 1290px;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  // justify-content: space-between;
+}
+
+.main {
+  flex: 1 0 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.above-header-advertisement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1290px;
+  height: 250px;
+  background-color: #94a3b8;
+  color: antiquewhite;
+}
+
+.under-spotlight-advertisement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 970px;
+  height: 250px;
+  background-color: #94a3b8;
+  color: antiquewhite;
+  margin-bottom: 42px;
+}
+
+.inner-spotlight-list-advertisement {
+  // display: flex;
+  max-width: 468px;
+  height: 60px;
+  background-color: #94a3b8;
+  color: antiquewhite;
+  margin-bottom: 24px;
+}
+
+.sidebar-first-advertisement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  height: 600px;
+  background-color: #94a3b8;
+  color: antiquewhite;
+  margin-bottom: 32px;
+}
+
+.sidebar-second-advertisement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  height: 600px;
+  background-color: #94a3b8;
+  color: antiquewhite;
+  margin-bottom: 32px;
+}
+
+.abore-other-advertisement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 748px;
+  margin: 0 auto;
+  height: 90px;
+  background-color: #94a3b8;
+  color: antiquewhite;
+  margin-bottom: 72px;
+}
+
+@media (max-width: 1000px) and (min-width: 748px) {
+  // .container {
+  //   padding: 0 18px;
+  // }
+
+  .flex-container {
+    max-width: 1290px;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    // padding: 0 40px;
+    display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+  }
+
+  .inner-spotlight-list-advertisement {
+    display: block;
+    width: 100%;
+    max-width: 468px;
+    height: 60px;
+    background-color: #94a3b8;
+  }
+
+  .abore-other-advertisement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 727px;
+    margin: 0 0 48px 15px;
+    height: 90px;
+    background-color: #94a3b8;
+    color: antiquewhite;
+    // margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 748px) {
+
+  .flex-container {
+    max-width: 1290px;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+  }
+
+  .above-header-advertisement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 320px;
+    height: 50px;
+    background-color: #94a3b8;
+    color: antiquewhite;
+  }
+  
+  .under-spotlight-advertisement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 970px;
+    height: 250px;
+    background-color: #94a3b8;
+    color: antiquewhite;
+    margin-bottom: 42px;
+  }
+  
+  .inner-spotlight-list-advertisement {
+    display: block;
+    // margin: 0 auto 36px;
+    width: 100%;
+    max-width: 468px;
+    height: 60px;
+    background-color: #94a3b8;
+  }
+  
+  .sidebar-first-advertisement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #94a3b8;
+    color: antiquewhite;
+    margin-bottom: 32px;
+  }
+  
+  .sidebar-second-advertisement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #94a3b8;
+    color: antiquewhite;
+    margin-bottom: 32px;
+  }
+  
+  .abore-other-advertisement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 748px;
+    margin: 0 auto 48px;
+    height: 90px;
+    background-color: #94a3b8;
+    color: antiquewhite;
+    // margin-bottom: 48px;
+  }
+}

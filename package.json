@@ -1,0 +1,32 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:assets": "webpack --env.production=false",
+    "build:assets:prod": "webpack --env.production",
+    "build": "run-s build:*",
+    "start": "webpack --watch --env.production=false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@fancyapps/fancybox": "^3.5.7",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-fix-style-only-entries": "^0.5.1"
+  },
+  "dependencies": {}
+}

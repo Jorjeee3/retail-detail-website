@@ -1,0 +1,274 @@
+.sidebar {
+  width: 300px;
+  margin-right: 15px;
+  margin-left: 20px;
+  margin-top: 48px;
+}
+.sidebar .sidebar-events-wrapper .sidebar-title {
+  color: #E93530;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-block {
+  position: relative;
+  width: 54px;
+  height: 74px;
+  border: 1px solid #807c7c;
+  margin-right: 6px;
+}
+.sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-block .sidebar-events-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: 300;
+}
+.sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-block .sidebar-events-date .sidebar-event-day {
+  font-weight: 300;
+  font-size: 26px;
+}
+.sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-block .sidebar-events-date .sidebar-event-month {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-data {
+  width: 80%;
+}
+.sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-data .sidebar-event-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-data .sidebar-enent-description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #465568;
+}
+.sidebar .sidebar-people-wrapper {
+  margin-bottom: 36px;
+}
+.sidebar .sidebar-people-wrapper .sidebar-title {
+  color: #E93530;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.sidebar .sidebar-people-wrapper .sidebar-people-list {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item .sidebar-image-wrapper {
+  width: 48px;
+  height: auto;
+  margin-right: 12px;
+}
+.sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item .sidebar-image-wrapper .sidebar-person-image {
+  width: 100%;
+  height: 100%;
+}
+.sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item .sidebar-person-data {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+.sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item .sidebar-person-data .sidebar-person-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item .sidebar-person-data .sidebar-person-profession {
+  font-size: 16px;
+  font-weight: 400;
+  color: #465568;
+}
+.sidebar .sidebar-contacts-wrapper {
+  margin-bottom: 36px;
+}
+.sidebar .sidebar-contacts-wrapper .sidebar-contacts-title {
+  color: #111111;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.sidebar .sidebar-contacts-wrapper .sidebar-contacts-list .sidebar-contacts-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 18px;
+  background-color: #F0F3F6;
+  margin-bottom: 12px;
+}
+.sidebar .sidebar-contacts-wrapper .sidebar-contacts-list .sidebar-contacts-item .sidebar-contacts-icon-wrapper {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+.sidebar .sidebar-contacts-wrapper .sidebar-contacts-list .sidebar-contacts-item .sidebar-contacts-icon-wrapper .sidebar-contacts-icon {
+  width: 100%;
+  height: 100%;
+}
+.sidebar .sidebar-contacts-wrapper .sidebar-contacts-list .sidebar-contacts-item .sidebar-contacts-media {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1000px) and (min-width: 748px) {
+  .sidebar {
+    margin-top: 0;
+  }
+}
+@media (max-width: 748px) {
+  .sidebar {
+    width: 100%;
+    margin: 0 0 24px;
+  }
+  .sidebar .sidebar-events-wrapper .sidebar-title {
+    color: #E93530;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-block {
+    position: relative;
+    width: 54px;
+    height: 74px;
+    border: 1px solid #807c7c;
+    margin-right: 6px;
+  }
+  .sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-block .sidebar-events-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-block .sidebar-events-date .sidebar-event-day {
+    font-weight: 300;
+    font-size: 26px;
+  }
+  .sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-block .sidebar-events-date .sidebar-event-month {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-data {
+    width: 80%;
+  }
+  .sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-data .sidebar-event-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 10px;
+  }
+  .sidebar .sidebar-events-wrapper .sidebar-events-list .sidebar-events-item .sidebar-events-data .sidebar-enent-description {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #465568;
+  }
+  .sidebar .sidebar-people-wrapper {
+    margin-bottom: 36px;
+  }
+  .sidebar .sidebar-people-wrapper .sidebar-title {
+    color: #E93530;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .sidebar .sidebar-people-wrapper .sidebar-people-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item .sidebar-image-wrapper {
+    width: 48px;
+    height: auto;
+    margin-right: 12px;
+  }
+  .sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item .sidebar-image-wrapper .sidebar-person-image {
+    width: 100%;
+    height: 100%;
+  }
+  .sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item .sidebar-person-data {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+  }
+  .sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item .sidebar-person-data .sidebar-person-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .sidebar .sidebar-people-wrapper .sidebar-people-list .sidebar-people-item .sidebar-person-data .sidebar-person-profession {
+    font-size: 16px;
+    font-weight: 400;
+    color: #465568;
+  }
+  .sidebar .sidebar-contacts-wrapper {
+    margin-bottom: 36px;
+  }
+  .sidebar .sidebar-contacts-wrapper .sidebar-contacts-title {
+    color: #111111;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+  .sidebar .sidebar-contacts-wrapper .sidebar-contacts-list .sidebar-contacts-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 18px;
+    background-color: #F0F3F6;
+    margin-bottom: 12px;
+  }
+  .sidebar .sidebar-contacts-wrapper .sidebar-contacts-list .sidebar-contacts-item .sidebar-contacts-icon-wrapper {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+  }
+  .sidebar .sidebar-contacts-wrapper .sidebar-contacts-list .sidebar-contacts-item .sidebar-contacts-icon-wrapper .sidebar-contacts-icon {
+    width: 100%;
+    height: 100%;
+  }
+  .sidebar .sidebar-contacts-wrapper .sidebar-contacts-list .sidebar-contacts-item .sidebar-contacts-media {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+/*# sourceMappingURL=sidebar.min.css.map*/

@@ -1,0 +1,218 @@
+@charset "UTF-8";
+.most-read-section {
+  max-width: 960px;
+  padding: 0 15px;
+  margin-bottom: 72px;
+}
+.most-read-section .page-subtitle {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #10172a;
+  margin-bottom: 24px;
+  display: inline-block;
+  text-align: left;
+}
+.most-read-section .most-read-content .most-read-list {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+  grid-auto-flow: column;
+}
+.most-read-section .most-read-content .most-read-list .most-read-item .most-read-item-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.most-read-section .most-read-content .most-read-list .most-read-item .most-read-item-content .most-read-number-wrapper {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #807c7c;
+  margin-right: 6px;
+}
+.most-read-section .most-read-content .most-read-list .most-read-item .most-read-item-content .most-read-number-wrapper .most-read-number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: 300;
+}
+.most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .latest-item-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list {
+  display: flex;
+}
+.most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list .keywords-item {
+  position: relative;
+  color: #465568;
+  font-size: 14px;
+  padding: 0 6px;
+  font-weight: 400;
+}
+.most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list .keywords-item:nth-child(2):before, .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list .keywords-item:nth-child(3):before {
+  content: "∣";
+  position: absolute;
+  left: -2px;
+  top: 0;
+}
+.most-read-section .most-read-content .most-read-list .most-read-item .articles-title {
+  display: block;
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #222222;
+}
+
+@media (min-width: 748px) and (max-width: 1000px) {
+  .most-read-section {
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  .most-read-section .page-subtitle {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #10172a;
+    margin-bottom: 24px;
+    display: inline-block;
+    text-align: left;
+  }
+  .most-read-section .most-read-content .most-read-list {
+    display: block;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item {
+    display: block;
+    margin-bottom: 28px;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .most-read-item-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .most-read-item-content .most-read-number-wrapper {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #807c7c;
+    margin-right: 6px;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .most-read-item-content .most-read-number-wrapper .most-read-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .latest-item-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list {
+    display: flex;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list .keywords-item {
+    position: relative;
+    color: #465568;
+    font-size: 14px;
+    padding: 0 6px;
+    font-weight: 400;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list .keywords-item:nth-child(2):before, .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list .keywords-item:nth-child(3):before {
+    content: "∣";
+    position: absolute;
+    left: -2px;
+    top: 0;
+  }
+}
+@media (max-width: 748px) {
+  .most-read-section {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto 72px;
+  }
+  .most-read-section .page-subtitle {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #10172a;
+    margin-bottom: 24px;
+    display: inline-block;
+    text-align: left;
+  }
+  .most-read-section .most-read-content .most-read-list {
+    display: block;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item {
+    display: block;
+    margin-bottom: 28px;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .most-read-item-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .most-read-item-content .most-read-number-wrapper {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #807c7c;
+    margin-right: 6px;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .most-read-item-content .most-read-number-wrapper .most-read-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .latest-item-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list {
+    display: flex;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list .keywords-item {
+    position: relative;
+    color: #465568;
+    font-size: 14px;
+    padding: 0 6px;
+    font-weight: 400;
+  }
+  .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list .keywords-item:nth-child(2):before, .most-read-section .most-read-content .most-read-list .most-read-item .keyword-wrapper .keywords-list .keywords-item:nth-child(3):before {
+    content: "∣";
+    position: absolute;
+    left: -2px;
+    top: 0;
+  }
+}
+
+/*# sourceMappingURL=mostRead.min.css.map*/

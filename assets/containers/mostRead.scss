@@ -1,0 +1,154 @@
+@import "../mixins/mixins";
+
+.most-read-section {
+  max-width: 960px;
+  padding: 0 15px;
+  margin-bottom: 72px;
+
+  .page-subtitle {
+    @include pageSubtitle;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .most-read-content {
+    .most-read-list {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 1em;
+      grid-auto-flow: column;
+      
+      .most-read-item {
+        .most-read-item-content {
+          display: flex;
+          align-items: center;
+          margin-bottom: 16px;
+
+          .most-read-number-wrapper {
+            position: relative;
+            width: 32px;
+            height: 32px;
+            border: 1px solid rgb(128, 124, 124);
+            margin-right: 6px;
+
+            .most-read-number {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-size: 24px;
+              font-weight: 300;
+            }
+          }
+        }
+        @include keywordsWrapper;
+
+        .articles-title {
+          @include articleTitle;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 748px) and (max-width: 1000px) {
+  .most-read-section {
+    // max-width: 300px;
+    margin-bottom: 24px;
+    width: 100%;
+    
+  
+    .page-subtitle {
+      @include pageSubtitlePhone;
+      display: inline-block;
+      text-align: left;
+    }
+  
+    .most-read-content {
+      .most-read-list {
+        display: block;
+  
+        .most-read-item {
+          display: block;
+          margin-bottom: 28px;
+  
+          .most-read-item-content {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+  
+            .most-read-number-wrapper {
+              position: relative;
+              width: 32px;
+              height: 32px;
+              border: 1px solid rgb(128, 124, 124);
+              margin-right: 6px;
+  
+              .most-read-number {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 24px;
+                font-weight: 300;
+              }
+            }
+          }
+          @include keywordsWrapper;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 748px) {
+  .most-read-section {
+    // max-width: 335px;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto 72px;
+  
+    .page-subtitle {
+      @include pageSubtitlePhone;
+      display: inline-block;
+      text-align: left;
+    }
+  
+    .most-read-content {
+      .most-read-list {
+        display: block;
+  
+        .most-read-item {
+          display: block;
+          margin-bottom: 28px;
+  
+          .most-read-item-content {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+  
+            .most-read-number-wrapper {
+              position: relative;
+              width: 32px;
+              height: 32px;
+              border: 1px solid rgb(128, 124, 124);
+              margin-right: 6px;
+  
+              .most-read-number {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 24px;
+                font-weight: 300;
+              }
+            }
+          }
+          @include keywordsWrapper;
+        }
+      }
+    }
+  }
+}
